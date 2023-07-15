@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/money.api/bin/Debug/net7.0
+/money.api/obj
+/money.api/money.api.csproj.user
+/money.common/obj
+/money.common/bin/Debug/net7.0
+/money.contracts/obj
+/money.contracts/bin/Debug/net7.0
+/money.core/obj
+/money.core/bin/Debug/net7.0
+/money.data/obj
+/money.data/bin/Debug/net7.0
+/money.domain/obj
+/money.domain/bin/Debug/net7.0
