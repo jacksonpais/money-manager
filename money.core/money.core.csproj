@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Services\TransactionTypeServices\2neasg3u.53j~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\money.infrastructure\money.infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
 </Project>

@@ -19,3 +19,6 @@
 /money.data/Migrations
 /money.api/appsettings.json
 /money.data/appsettings.json
+/money.api/logs
+/money.infrastructure/bin/Debug/net7.0
+/money.infrastructure/obj
