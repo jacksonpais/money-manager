@@ -8,7 +8,7 @@ namespace money.core.Mappings
     {
         public MappingConfig()
         {
-            CreateMap<TransactionTypeMaster, GetAllTransactionTypesViewModel>().ReverseMap();
+            CreateMap<TransactionTypeMaster, AllTransactionTypesViewModel>().ReverseMap();
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using money.core;
+using money.core.Features.TransactionType.Queries.GetAllTransactionTypes;
 using money.core.Services.Interfaces;
 using money.domain.Entities;
 using System.Net;
@@ -33,7 +34,7 @@ namespace money.api.Controllers
             {
                 IEnumerable<TransactionTypeMaster> transactionTypeList;
                 transactionTypeList = await _dbTransactionTypeService.GetAllAsync();
-                _response.Result = _mapper.Map<List<TransactionTypeMaster>>(transactionTypeList);
+                _response.Result = _mapper.Map<List<AllTransactionTypesViewModel>>(transactionTypeList);
                 _response.StatusCode = HttpStatusCode.OK;
                 return Ok(_response);
             }
