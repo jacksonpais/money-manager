@@ -14,6 +14,9 @@ namespace money.data.Seeds
         {
             // TransactionTypeMaster
             modelBuilder.Entity<TransactionTypeMaster>().HasData(new TransactionTypeSeedData().AddSeedData());
+
+            // CurrencyMaster
+            modelBuilder.Entity<CurrencyMaster>().HasData(new CurrencySeedData().AddSeedData());
         }
     }
 }
