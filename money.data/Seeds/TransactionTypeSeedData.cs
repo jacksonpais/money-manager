@@ -19,7 +19,7 @@ namespace money.data.Seeds
                 new TransactionTypeMaster
                 {
                     Id = 2,
-                    TrasactionType = "Expensencome",
+                    TrasactionType = "Expense",
                     CreatedDate = DateTime.Now,
                     UpdatedDate = DateTime.Now
                 },

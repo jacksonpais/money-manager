@@ -12,7 +12,10 @@ namespace money.data.Seeds
     {
         public static void AddSeedData(ModelBuilder modelBuilder)
         {
-            // TransactionTypeMaster
+            modelBuilder.Entity<AccountTypeMaster>().HasData(new AccountTypeSeedData().AddSeedData());
+            modelBuilder.Entity<CategoryMaster>().HasData(new CategorySeedData().AddSeedData());
+            modelBuilder.Entity<CurrencyMaster>().HasData(new CurrencySeedData().AddSeedData());
+            modelBuilder.Entity<PaymentModesMaster>().HasData(new PaymentModesSeedData().AddSeedData());
             modelBuilder.Entity<TransactionTypeMaster>().HasData(new TransactionTypeSeedData().AddSeedData());
         }
     }
