@@ -12,10 +12,6 @@ namespace money.data.Context
         {
         }
 
-        public DbSet<AccountTypeMaster> AccountTypeMaster { get; set; }
-        public DbSet<AccountTypeMaster> CategoryMaster { get; set; }
-        public DbSet<CurrencyMaster> CurrencyMaster { get; set; }
-        public DbSet<PaymentModesMaster> PaymentModeMaster { get; set; }
         public DbSet<TransactionTypeMaster> TransactionTypeMaster { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
